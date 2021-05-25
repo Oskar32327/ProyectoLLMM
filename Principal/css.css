@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedorPrin{
+    height: 100vh;
+}
+
+.contenedor_Interior{
+	min-width: 340px;
+	justify-content: center;
+}
+.tituloJuego{
+	font-size: 25px;
+	color: white;
+	margin-top: 20px;
+	width: 300px;
+	height: 30px;
+}
+.tituloJuego p{
+	text-align: center;
+}
+.contenedor_imagen_Descripcion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+.imagen_titulo{
+	width: 300px;
+	height: 30px;
+}
+.centrado{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.tarjeta_imagen_descripcion{
+	margin-left: 5%;
+	width: 40%;
+	min-height: 223px;
+	min-width: 300px;
+	margin: 5px;
+	padding: 5px;
+	color: white;
+}
+.tarjeta_imagen_descripcion ul{
+	list-style-type: none;
+}
+.parte_central_espacio{
+	width: 10%;
+	background-color: black;
+}
+.precio_enlace{
+	background-color: lightblue;
+	margin-left: 9.5%;
+	margin-top: 20px;
+	width: 40%;
+}
+.precio_enlace p{
+	text-align: center;
+
+}
+.contenedor_multimedia{	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.imagenes_contenedor_multimedia{
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+    width: 80%;
+}
+.imagenes_contenedor_multimedia p{
+	text-align: center;
+}
+.imagen_video{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: 10%;
+    margin-right: 10%;
+}
+.tarjeta_imagen_video{
+	margin: 5px;
+	height: 150px;
+	width: 265px;
+}
+
+.tarjeta_imagen_video img{
+	height: 100%;
+	width: 100%;
+}
+.contenedor_noticias{
+	display: flex;
+	flex-direction: row;
+}
+.imagenes_contenedor_noticias{
+	color: white;
+	overflow: hidden;
+	margin-bottom: 20px;
+    width: 80%;
+}
+.contenedor_footer{
+	text-align: center;
+	min-width: 340px;
+}
+#imagenHeader > img{
+  width: 100%;
+}
+
+.contenedor_titulo_noticia{
+	background-color: lightgrey;
+}
+
+@media(max-width: 630px){
+	.precio_enlace{
+		justify-content: center;
+	    width: 70%;
+	    margin-left: 14.5%;
+	    margin-right: 5%;
+	}
+}
